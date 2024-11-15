@@ -1,0 +1,23 @@
+
+  #filtro{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+  }
+  #filtro:hover{
+    background-color: rgb(216, 216, 216);
+  }
+  #cartas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cartas bajen a la siguiente fila */
+    gap: 16px; /* Espaciado entre las cartas */
+    justify-content: center;
+}
+
+#carta {
+    display: block; /* Muestra las cartas visibles */
+}
+
+#carta.hidden {
+    display: none; /* Oculta las cartas filtradas */
+}
